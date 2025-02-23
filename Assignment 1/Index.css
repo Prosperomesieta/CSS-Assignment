@@ -93,8 +93,8 @@ section {
 }
 .white-container {
   background-color: white;
-  width: 58%;
-  height: 63%;
+  width:45%;
+  height: 55%;
   border-radius: 8px;
   display: flex;
   flex-direction: column;

@@ -75,23 +75,28 @@ body {
     height: 83vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
   }
   .content-wrapper {
     width: 54%;
-    position: relative;
-    bottom: 30px;
+    
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+
+
+
   }
+
+
   .image-wrapper {
-    height: 138px;
+    height: 300px;
+    margin-bottom: -50px
   }
   .text-wrapper {
     background-color: white;
-    height: 110px;
-    position: relative;
-    top: 40px;
+    height: 200px;
+    
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 12px 10px;
@@ -126,9 +131,11 @@ p {
   border-top-left-radius: 5px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 5px;
-  position: fixed;
-  left: 333px;
-  top: 65px;
+  position: relative;
+  top: 30px;
+  right: 10px;
+  
+
 
   .banner-text {
     margin-top: 3px;
