@@ -290,18 +290,19 @@ h6 {
       border-bottom: 7px solid #cc9900;
       height: 25%;
       display: flex;
-      padding: 20px;
       align-items: center;
       position: relative;
       right: 10px;
       top: 10px;
+      padding-left: 10px;
     }
 
     .about-text-container {
       display: flex;
       flex-direction: column;
       gap: 15px;
-      padding: 20px;
+      margin-top: 10px;
+    
     }
   }
 }
